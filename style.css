@@ -1,0 +1,118 @@
+body{
+    background-image: url(mia.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.header{
+    width: auto;
+    margin: 10px;
+    height: 100px;
+    line-height: 100px;
+    
+    color: rgb(112, 226, 217);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-size-adjust: 100px;
+}
+
+.menu{
+    
+    height:60px;
+    line-height: 60px;
+    position: relative;
+    width: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.jarak{
+    padding:0 3pc;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li a{
+    float:left;
+    width: 80px;
+    text-align:center;
+    color:#8fa39e;
+    text-decoration:none;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(172, 248, 229);
+    display: block;
+}
+
+.tengah{
+    width: auto;
+    margin: auto;
+    height: 1000px;
+    padding: 0px;
+    background: rgb(56, 177, 161);
+    background-image: url(p.jpg);
+    background-position: center;
+    color:  #5b7271;
+}
+
+.tengah img{
+    background-image: url(p.jpg);
+    background-size: 100%;
+    height: 400px;
+    width: 400px;
+
+}
+
+.border{
+    border: 2px outset #457179;
+    margin: 12px;
+    height: auto;
+    width: auto;
+    padding-bottom: 1pc;
+    padding-left: 2pc;
+    padding-right: 2pc;
+    background-image: url(p.jpg);    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.content{
+   
+    width: 80%;
+    float: right;
+    margin: auto;
+    background: #7eaaa8;
+    height: auto;
+    color: rgb(230, 229, 229);
+}
+
+.sidebar{
+    text-align: center;
+    position: relative;
+    width: 150px;
+    float: auto;
+    
+    height: 700px;
+}
+h3{
+    color: whitesmoke;
+}
+
+.footer{
+    width: 100%;
+    margin: 5%;
+    line-height: 20px;
+    background: #abecee;
+    margin-bottom: 3pc;
+    text-align: center;
+    color: #fff;
+}
+.script{
+    text-align: center;
+}
